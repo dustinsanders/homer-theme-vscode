@@ -1,8 +1,8 @@
 {
   "name": "homer-theme-vscode",
+  "displayName": "Homer Theme",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "vscode theme homer",
   "scripts": {
     "install:local": "node ./installLocal.js"
   },
@@ -17,7 +17,7 @@
   "engines": {
     "vscode": "^1.0.0"
   },
-  "icon": "icon.png",
+  "icon": "images/homer.png",
   "categories": [
     "Themes"
   ],

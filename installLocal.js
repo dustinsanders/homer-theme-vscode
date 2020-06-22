@@ -7,7 +7,7 @@ console.log('vsix', vsix)
 
 const commands = [
   'vsce package',
-  // `code --install-extension ${vsix}`,
+  `code --install-extension ${vsix}`,
 ]
 
 commands.map(
