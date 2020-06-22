@@ -3,8 +3,6 @@ const { name, version} = require('./package.json')
 
 const vsix = `${name}-${version}.vsix`
 
-console.log('vsix', vsix)
-
 const commands = [
   'vsce package',
   `code --install-extension ${vsix}`,
