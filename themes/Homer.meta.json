@@ -1,0 +1,240 @@
+{
+  "primary": [
+    {
+      "name": "Background",
+      "value": "#353434",
+      "isBackground": true,
+      "description": "Primary Background Color",
+      "derivatives": [
+        {
+          "value": "#2f2e2e",
+          "derivation": "darken(2.5)"
+        },
+        {
+          "value": "#4f4d4d",
+          "derivation": "lighten(10)"
+        },
+        {
+          "value": "#686666",
+          "derivation": "lighten(20)"
+        },
+        {
+          "value": "#828080",
+          "derivation": "lighten(30)"
+        }
+      ]
+    },
+    {
+      "name": "Foreground",
+      "value": "#f8f8f8",
+      "isForeground": true,
+      "description": "Primary Foreground Color"
+    },
+    {
+      "name": "Color 1 - Strings",
+      "value": "#FED90F",
+      "isSecondaryOption": true,
+      "description": "Yellow Color in Homer Theme",
+      "derivatives": [
+        {
+          "value": "#fff1a7",
+          "derivation": "lighten(30)"
+        }
+      ]
+    },
+    {
+      "name": "Color 2",
+      "value": "#FF419E",
+      "isSecondaryOption": true,
+      "description": "Pink Color in Homer Theme"
+    },
+    {
+      "name": "Color 3",
+      "value": "#D1B271",
+      "isSecondaryOption": true,
+      "description": "Beige Color in Homer Theme"
+    },
+    {
+      "name": "Color 4",
+      "value": "#70D1FE",
+      "isSecondaryOption": true,
+      "description": "Light Blue Color in Homer Theme"
+    },
+    {
+      "name": "Color 5",
+      "value": "#cef296",
+      "isSecondaryOption": true,
+      "description": "Green Color in Homer Theme"
+    },
+    {
+      "name": "Selection",
+      "value": "#494950",
+      "description": "Main Selection Color",
+      "derivatives": [
+        {
+          "value": "#49495075",
+          "derivation": "opacity(75)"
+        },
+        {
+          "value": "#55555d",
+          "derivation": "lighten(5)"
+        },
+        {
+          "value": "#3d3d43",
+          "derivation": "darken(5)"
+        }
+      ]
+    },
+    {
+      "name": "Comment",
+      "value": "#969BA7",
+      "description": "Comment Foreground Color",
+      "derivatives": [
+        {
+          "value": "#969BA775",
+          "derivation": "opacity(75)"
+        }
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Added",
+      "value": "#cef296",
+      "description": "GIT added resource color",
+      "colors": [
+        "editorOverviewRuler.addedForeground",
+        "editorGutter.addedBackground",
+        "gitDecoration.addedResourceForeground",
+        "gitDecoration.untrackedResourceForeground",
+        "diffEditor.insertedTextBackground",
+        "diffEditor.insertedTextBorder"
+      ],
+      "derivatives": [
+        {
+          "value": "#cef29625",
+          "derivation": "opacity(25)"
+        }
+      ]
+    },
+    {
+      "name": "Deleted/Error",
+      "value": "#FF419E",
+      "description": "GIT deleted resource and general error color",
+      "colors": [
+        "editorOverviewRuler.deletedForeground",
+        "editorGutter.deletedBackground",
+        "diffEditor.removedTextBackground",
+        "diffEditor.removedTextBorder",
+        "gitDecoration.deletedResourceForeground",
+        "errorForeground",
+        "inputValidation.errorBackground",
+        "inputValidation.errorBorder",
+        "list.errorForeground",
+        "editorOverviewRuler.errorForeground",
+        "editorError.foreground",
+        "editorMarkerNavigationError.background",
+        "notification.errorBackground"
+      ],
+      "derivatives": [
+        {
+          "value": "#FF419E25",
+          "derivation": "opacity(25)"
+        }
+      ]
+    },
+    {
+      "name": "Modified",
+      "value": "#70D1FE",
+      "description": "GIT modified resource color",
+      "colors": [
+        "editorOverviewRuler.modifiedForeground",
+        "editorGutter.modifiedBackground",
+        "gitDecoration.modifiedResourceForeground"
+      ]
+    },
+    {
+      "name": "Warning",
+      "key": "warning",
+      "value": "#D1B271",
+      "description": "general warning color",
+      "colors": [
+        "list.warningForeground",
+        "inputValidation.warningBackground",
+        "inputValidation.warningBorder",
+        "editorOverviewRuler.warningForeground",
+        "editorWarning.foreground",
+        "editorMarkerNavigationWarning.background",
+        "notification.warningBackground"
+      ]
+    },
+    {
+      "name": "Find Highlight",
+      "value": "#D1B271",
+      "description": "background color for matches on find",
+      "colors": [
+        "editor.findMatchHighlightBackground"
+      ],
+      "derivatives": [
+        {
+          "value": "#D1B27175",
+          "derivation": "opacity(75)"
+        }
+      ]
+    },
+    {
+      "name": "Terminal Red",
+      "value": "#FF419E",
+      "description": "red/error color in integrated terminal",
+      "colors": [
+        "terminal.ansiRed",
+        "terminal.ansiBrightRed"
+      ]
+    },
+    {
+      "name": "Terminal Green",
+      "value": "#cef296",
+      "description": "green/success color in integrated terminal",
+      "colors": [
+        "terminal.ansiGreen",
+        "terminal.ansiBrightGreen"
+      ]
+    },
+    {
+      "name": "Terminal Blue",
+      "value": "#70d1fe",
+      "description": "blue color in integrated terminal",
+      "colors": [
+        "terminal.ansiBlue",
+        "terminal.ansiBrightBlue"
+      ]
+    },
+    {
+      "name": "Terminal Yellow",
+      "value": "#FED90F",
+      "description": "yellow color in integrated terminal",
+      "colors": [
+        "terminal.yellow",
+        "terminal.ansiBrightYellow"
+      ]
+    },
+    {
+      "name": "Terminal Magenta",
+      "value": "#FF419E",
+      "description": "magenta color in integrated terminal",
+      "colors": [
+        "terminal.ansiMagenta",
+        "terminal.ansiBrightMagenta"
+      ]
+    },
+    {
+      "name": "Terminal Cyan",
+      "value": "#d1b271",
+      "description": "cyan color in integrated terminal",
+      "colors": [
+        "terminal.ansiCyan",
+        "terminal.ansiBrightCyan"
+      ]
+    }
+  ]
+}

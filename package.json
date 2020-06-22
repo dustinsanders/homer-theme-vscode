@@ -1,0 +1,33 @@
+{
+  "name": "homer-theme-vscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:local": "node ./installLocal.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dustinsanders/homer-theme-vscode.git"
+  },
+  "publisher": "dustinsanders",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Homer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Homer.json"
+      }
+    ]
+  }
+}
