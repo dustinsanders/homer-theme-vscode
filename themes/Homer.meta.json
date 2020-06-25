@@ -31,10 +31,10 @@
       "description": "Primary Foreground Color"
     },
     {
-      "name": "Color 1 - Strings",
+      "name": "Color 1",
       "value": "#FED90F",
       "isSecondaryOption": true,
-      "description": "Yellow Color in Homer Theme",
+      "description": "color used for Strings",
       "derivatives": [
         {
           "value": "#fff1a7",
@@ -46,25 +46,25 @@
       "name": "Color 2",
       "value": "#FF419E",
       "isSecondaryOption": true,
-      "description": "Pink Color in Homer Theme"
+      "description": "color used for Storage"
     },
     {
       "name": "Color 3",
       "value": "#D1B271",
       "isSecondaryOption": true,
-      "description": "Beige Color in Homer Theme"
+      "description": "color used for Keywords"
     },
     {
       "name": "Color 4",
       "value": "#70D1FE",
       "isSecondaryOption": true,
-      "description": "Light Blue Color in Homer Theme"
+      "description": "color used for Functions, Attributes"
     },
     {
       "name": "Color 5",
       "value": "#cef296",
       "isSecondaryOption": true,
-      "description": "Green Color in Homer Theme"
+      "description": "color used for Constants, Properties"
     },
     {
       "name": "Selection",
